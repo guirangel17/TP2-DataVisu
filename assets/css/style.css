@@ -49,6 +49,11 @@ rect:hover {  opacity:0.5; }
   margin-top: -25px;
 }
 
+.informativeText {
+  font-size: 13px;
+  font-weight: 600;
+}
+
 .sortButton {
   margin-top: -75%;
   margin-left: 53%;

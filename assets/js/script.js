@@ -264,6 +264,7 @@ d3.csv("data/users_with_more_than_1000_commits.csv", function(data) {
             histogram.update(monthsArray.map((d) => { return [d, d3.sum(fData.map((t) => t.months[d]))]}), barColor);
           }
           else {
+            console.log(fData);
             let st = fData.filter(function(s){ return s.year == d.type;})[0];
             let gr = d3.keys(st.months).map((s) => [s, st.months[s]]);
             histogram.update(gr, segColor(d.type), d.type);
