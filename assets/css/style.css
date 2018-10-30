@@ -1,0 +1,60 @@
+body{
+  width:1060px;
+  margin:50px auto;
+}
+path {  stroke: #fff; }
+path:hover {  opacity:0.9; }
+rect:hover {  opacity:0.5; }
+.axis {  font: 10px sans-serif; }
+.legend tr{    border-bottom:1px solid grey; }
+.legend tr:first-child{    border-top:1px solid grey; }
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {  display: none; }
+.y.axis {margin-right: 20px;}
+
+.legend{
+  margin-bottom: 0px;
+  margin-left: 60px;
+  display:inline-block;
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+.legend td{
+  padding:4px 5px;
+  vertical-align:bottom;
+}
+.legendFreq, .legendPerc{
+  align:right;
+  width:30px;
+}
+
+.bar {
+  margin-left: 20px;
+}
+
+.legendText {
+  text-align: right;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 600;
+  width: 265px;
+  margin-left: 65%;
+  margin-top: -25px;
+}
+
+.sortButton {
+  margin-top: -75%;
+  margin-left: 53%;
+}
+
+.barText {
+  font-size: 13px;
+  font-weight: 500;
+}
