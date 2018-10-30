@@ -1,12 +1,12 @@
 let nUsersCreated = {};
-const monthsArray = [ "January", "February", "March", "April", "May", "June",
-  "July", "August", "September", "October", "November", "December" ];
+const monthsArray = [ "Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho",
+  "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro" ];
 const segColor = (c) => {
   return {
-    January:"#a6cee3", February:"#1f78b4",March:"#b2df8a",
-    April:"#33a02c", May:"#fb9a99",June:"#e31a1c",
-    July:"#fdbf6f", August:"#ff7f00",September:"#cab2d6",
-    October:"#6a3d9a", November:"#d8b365",December:"#8c510a",
+    Janeiro:"#a6cee3", Fevereiro:"#1f78b4",Março:"#b2df8a",
+    Abril:"#33a02c", Maio:"#fb9a99",Junho:"#e31a1c",
+    Julho:"#fdbf6f", Agosto:"#ff7f00",Setembro:"#cab2d6",
+    Outubro:"#6a3d9a", Novembro:"#d8b365",Dezembro:"#8c510a",
     Total: 'grey', 2007:"#8dd3c7", 2008:"#fdae61",2009:"#bebada",
     2010:"#fb8072", 2011:"#80b1d3", 2012:"#b3de69",
     2013:"#de77ae",2014:"#bababa", 2015:"#bc80bd",
